@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <!-- Web Ideas -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Portfolio Website</title>
-   <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/de270889e1.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -14,7 +14,7 @@
     <header>
         <nav id="navbar" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="1800">
             <div class="logo">
-                <img src="imgs/logo.avif" alt="">
+                <img src="logo.avif" alt="">
             </div>
             <!-- Hamurger -->
             <input type="checkbox" class="checkbox">
@@ -28,6 +28,7 @@
                 <li><a href="#home">Inicio</a></li>
                 <li><a href="#about">Sobre Mi</a></li>
                 <li><a href="#services">Servicios</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#portfolio">Libros</a></li>
                 <li><a href="#contact">Contacto</a></li>
             </ul>
@@ -40,12 +41,9 @@
             <h3 data-aos="fade-up" data-aos-duration="1200" data-aos-delay="1200">Un aficionado al <span>Desarrollo de sitios web</span> desde Cusco</h3>
             <div class="button" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="1500">
                 <button class="btn">
-                    <a href="#portfolio">Ver mis libros</a>  
+                    <a href="#milibro">Ver mis libros</a>  
                 </button>
             </div>
-        </div>
-        <div class="cuaro-imag">
-            <img src="imgs/image.png" alt="">
         </div>
         <div class="social-icons" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="2000" 
         data-aos-anchor-placement="bottom-bottom">
@@ -61,7 +59,7 @@
     <section id="about">
         <div class="container">
             <div class="about-img" data-aos="fade-right" data-aos-duration="1200">
-                <img src="imgs/login.png" alt="">
+                <img src="login.png" alt="">
             </div>
             <div class="text-wrapper" data-aos="fade-right" data-aos-duration="1200">
                 <h4>Kevin</h4>
@@ -206,43 +204,42 @@
     </div>
 </section>
 
-        <!-------------- Skills Section -------------->
-        <section id="skills">
-            <div class="heading-wrapper">
-                <div class="heading">
-                    <h2>My Skills</h2>
-                </div>
-                <div class="animate-bar"></div>
+    <!-------------- Skills Section -------------->
+    <section id="skills">
+        <div class="heading-wrapper">
+            <div class="heading">
+                <h2>My Skills</h2>
             </div>
+            <div class="animate-bar"></div>
+        </div>
 
-            <div class="container">
-
-                <!-- Progress Item Start -->
-                <div class="progress-item" data-aos="fade-up" data-aos-duration="1200">
-                    <div class="text">
-                        <h5>Html</h5>
-                    </div>
-                    <div class="progress-bar">
-                        <div class="progress-line html"></div>
-                    </div>
+        <div class="container">
+            <!-- Progress Item Start -->
+            <div class="progress-item" data-aos="fade-up" data-aos-duration="1200">
+                <div class="text">
+                    <h5>Html</h5>
                 </div>
-                <!-- Progress Item End -->
-
-                <!-- Progress Item Start -->
-                <div class="progress-item" data-aos="fade-up" data-aos-duration="1200">
-                    <div class="text">
-                        <h5>React</h5>
-                    </div>
-                    <div class="progress-bar">
-                        <div class="progress-line react"></div>
-                    </div>
+                <div class="progress-bar">
+                    <div class="progress-line html"></div>
                 </div>
-                <!-- Progress Item End -->
+            </div>
+        <!-- Progress Item End -->
+        
+        <!-- Progress Item Start -->
+            <div class="progress-item" data-aos="fade-up" data-aos-duration="1200">
+                <div class="text">
+                    <h5>CSS</h5>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-line react"></div>
+                </div>
+            </div>
+        <!-- Progress Item End -->
 
-                <!-- Progress Item Start -->
-                <div class="progress-item" data-aos="fade-up" data-aos-duration="1200">
-                    <div class="text">
-                        <h5>CSS</h5>
+        <!-- Progress Item Start -->
+            <div class="progress-item" data-aos="fade-up" data-aos-duration="1200">
+                <div class="text">
+                        <h5>Python</h5>
                     </div>
                     <div class="progress-bar">
                         <div class="progress-line css"></div>
@@ -253,7 +250,7 @@
                 <!-- Progress Item Start -->
                 <div class="progress-item" data-aos="fade-up" data-aos-duration="1200">
                     <div class="text">
-                        <h5>Javascript</h5>
+                        <h5>C#</h5>
                     </div>
                     <div class="progress-bar">
                         <div class="progress-line js"></div>
@@ -264,7 +261,7 @@
                 <!-- Progress Item Start -->
                 <div class="progress-item" data-aos="fade-up" data-aos-duration="1200">
                     <div class="text">
-                        <h5>Python</h5>
+                        <h5>Javascript</h5>
                     </div>
                     <div class="progress-bar">
                         <div class="progress-line python"></div>
@@ -275,7 +272,7 @@
                 <!-- Progress Item Start -->
                 <div class="progress-item" data-aos="fade-up" data-aos-duration="1200">
                     <div class="text">
-                        <h5>Django</h5>
+                        <h5>PHP</h5>
                     </div>
                     <div class="progress-bar">
                         <div class="progress-line django"></div>
@@ -284,9 +281,8 @@
                 <!-- Progress Item End -->
             </div>
         </section>
-    </section>
     <!-------------- Portfolio Section -------------->
-    <section id="portfolio">
+    <section id="milibro">
         <div class="heading-wrapper">
             <div class="heading">
                 <h2>Libros</h2>
@@ -305,7 +301,7 @@
                 <!-- Gallery Item Start -->
                 <div class="gallery-item brand" data-aos="fade-right" data-aos-duration="1200">
                     <div class="gallery-item-inner">
-                        <img src="imgs/images1.jpg" alt="brand">
+                        <img src="images1.jpg" alt="brand">
                         <div class="overlay">
                             <h5>Brand #1</h5>
                             <p>More Info</p>
@@ -317,7 +313,7 @@
                 <!-- Gallery Item Start -->
                 <div class="gallery-item design" data-aos="fade-right" data-aos-duration="1200">
                     <div class="gallery-item-inner">
-                        <img src="imgs/images2.jpg" alt="design">
+                        <img src="images2.jpg" alt="design">
                         <div class="overlay">
                             <h5>Libro #2</h5>
                             <p>More Info</p>
@@ -329,7 +325,7 @@
                 <!-- Gallery Item Start -->
                 <div class="gallery-item brand" data-aos="fade-right" data-aos-duration="1200">
                     <div class="gallery-item-inner">
-                        <img src="imgs/images3.jpg" alt="brand">
+                        <img src="images3.jpg" alt="brand">
                         <div class="overlay">
                             <h5>Libro #3</h5>
                             <p>Info</p>
@@ -341,7 +337,7 @@
                 <!-- Gallery Item Start -->
                 <div class="gallery-item photos" data-aos="fade-right" data-aos-duration="1200">
                     <div class="gallery-item-inner">
-                        <img src="imgs/images4.jpg" alt="photos">
+                        <img src="images4.jpg" alt="photos">
                         <div class="overlay">
                             <h5>Libro #4</h5>
                             <p>Info</p>
@@ -353,7 +349,7 @@
                 <!-- Gallery Item Start -->
                 <div class="gallery-item design" data-aos="fade-right" data-aos-duration="1200">
                     <div class="gallery-item-inner">
-                        <img src="imgs/imagen5.jpg" alt="design">
+                        <img src="imagen5.jpg" alt="design">
                         <div class="overlay">
                             <h5>Libro #5</h5>
                             <p>Info</p>
@@ -365,7 +361,7 @@
                 <!-- Gallery Item Start -->
                 <div class="gallery-item photos" data-aos="fade-right" data-aos-duration="1200">
                     <div class="gallery-item-inner">
-                        <img src="imgs/images6.jpg" alt="photos">
+                        <img src="images6.jpg" alt="photos">
                         <div class="overlay">
                             <h5>Libro #6</h5>
                             <p>Info</p>
@@ -375,7 +371,6 @@
                 <!-- Gallery Item End -->
             </div>
         </div>
-
     </section>
 
     <!-------------- Contact Section -------------->
