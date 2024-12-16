@@ -109,14 +109,7 @@ p,span{
     border-right: 5px solid white;
     animation: animate 3s linear infinite;
 }
-@keyframes animate{
-    from{
-        left: 0%;
-    }
-    to{
-        left: 100%;
-    }
-}
+
 .sub-heading{
     max-width: 40rem;
     text-align: center;
@@ -124,7 +117,6 @@ p,span{
     padding: 0 1rem;
 }
 /* <================= Navbar =================> */
-
 #navbar{
     height: 4rem;
     width: 100%;
@@ -178,7 +170,7 @@ p,span{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("../luffyPortfolio-main/imgs/image7.png");
+    background-image: url("image7.png");
     background-size: cover; 
     background-position: center;
 }
@@ -411,41 +403,41 @@ p,span{
     right: -15px;
 }
 .progress-bar .progress-line.html{
-    width: 25%;
+    width: 42%;
 }
 .progress-bar .progress-line.react{
-    width: 15%;
+    width: 27%;
 }
 .progress-bar .progress-line.css{
-    width: 34%;
+    width: 29%;
 }
 .progress-bar .progress-line.js{
-    width: 19%;
+    width: 13%;
 }
 .progress-bar .progress-line.python{
-    width: 40%;
+    width: 6%;
 }
 .progress-bar .progress-line.django{
-    width: 0%;
+    width: 19%;
 }
 
 .progress-bar .progress-line.html::after{
-    content: "25%";
+    content: "42%";
 }
 .progress-bar .progress-line.react::after{
-    content: "15%";
+    content: "27%";
 }
 .progress-bar .progress-line.css::after{
-    content: "34%";
+    content: "29%";
 }
 .progress-bar .progress-line.js::after{
-    content: "19%";
+    content: "13%";
 }
 .progress-bar .progress-line.python::after{
-    content: "40%";
+    content: "6%";
 }
 .progress-bar .progress-line.django::after{
-    content: "0%";
+    content: "19%";
 }
 
 
@@ -755,9 +747,7 @@ footer{
     justify-content: center;
     align-items: center;
 }
-
 /* <================= Responsive =================> */
-
 /* Hamburger */
 #navbar .checkbox{
     position: absolute;
